@@ -1,5 +1,5 @@
 <?php
-namespace Jsq\EncryptionStreams;
+namespace tinabanaku22\WhatsAppEncStreams;
 
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
@@ -7,7 +7,13 @@ use Psr\Http\Message\StreamInterface;
 
 //Проверки классов шифрования и расшифровки методом WhatsApp
 class WhatsAppEncryptingStreamsTest extends TestCase
-{        
+{          
+    //Общая рабочая проверка
+    public function testDev()
+    {
+        return true;
+    }
+    
     //Проверка чтения одной командой
     public function testOneFullRead()
     {

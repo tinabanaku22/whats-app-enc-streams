@@ -1,6 +1,6 @@
 <?php
 
-namespace app\WhatsAppEncStreams\Src;
+namespace tinabanaku22\WhatsAppEncStreams;
 
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
 use Psr\Http\Message\StreamInterface;
