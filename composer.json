@@ -1,0 +1,33 @@
+{
+  "name": "tinabanaku22/whats-app-enc-streams",
+  "description": "For encrypting and decrypting streams usinf WhatsApp cipher method.",
+  "minimum-stability": "stable",
+  "keywords": ["gms","stream","encryption"],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Gusev Maksim",
+      "email": "maxgus@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "tinabanaku22\\WhatsAppEncStreams\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tinabanaku22\\WhatsAppEncStreams\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-openssl": "*",
+    "guzzlehttp/psr7": "~1.0",
+    "psr/http-message": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
